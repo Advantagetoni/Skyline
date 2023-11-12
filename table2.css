@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    }
+    
+    body{
+        padding-top: 50px;
+    }
+    
+    table{
+    width: 65%;
+    margin: auto;
+    }
+    
+    
+    table, th, td{
+    border: 1px solid rgba(128, 128, 128, 0.975);
+    border-collapse: collapse;
+    height: 40px;
+    border: none;
+    text-align: center;
+    }
+    
+    th{
+        background-color: rgb(20, 20, 220);
+        color: white;
+    }
+
+    
+    
+    /* The header of the table */
+    .head{
+    color: rgb(55, 0, 128);
+    font-size: large;
+    }
+
+    td button{
+     padding: 2px 5px;
+    }
+
+    tr:nth-child(even){
+        background-color: aliceblue;
+    }
+
+    h2{ text-align: center;
+    }
