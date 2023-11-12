@@ -1,0 +1,49 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: sans-serif;
+}
+
+body{
+    padding-top: 50px;
+}
+
+table{
+width: 65%;
+margin: auto;
+}
+
+
+table, th, td{
+border-bottom: 1px solid;
+border-collapse: collapse;
+height: 60px;
+text-align: center;
+}
+
+th{
+    background-color: rgb(20, 20, 220);
+    color: white;
+}
+
+.icon{
+color: rgb(9, 0, 128);
+font: size 2px;
+padding-left: 3px;
+}
+
+
+/* Red icon for marks below 50 */
+.obi{
+    color: red;
+font: size 5px;
+padding-left: 3px;
+}
+
+
+/* The header of the table */
+.head{
+color: rgb(55, 0, 128);
+font-size: x-large;
+}
